@@ -1,5 +1,5 @@
 # Plugins
-gems:
+plugins:
 - jekyll-sitemap
 safe: false
 
@@ -10,7 +10,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
+title: "GDG DevFest Season 2019"
 email: "devfest@gdg.org.ua"
 description: "GDG DevFest is a set of events all around the world"
 baseurl: "/zeppelin"
@@ -21,8 +21,8 @@ googleAnalyticsSiteUrl: "gdg-x.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
+organizerName: "GDG Natal"
+organizerAlternateName: "Google Developer Group Natal"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
 organizerEmail: "lviv@gdg.org.ua"
 organizerLogo: "/img/seo/organizer-logo.png"
@@ -56,9 +56,9 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+heroTitle: "GDG DevFest <typeout> 2019"
+eventDate: "19 de Outubro de 2019"
+typeoutTextValues: '"", "NE"'
 typeoutFallback: "Season"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
@@ -97,9 +97,9 @@ eventAddressLocality: "Lviv"
 eventAddressLocalityRegion: "Lvivska"
 eventPostalCode: "79000"
 eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
+eventStartTime: "2019-10-25T10:00"
 eventDoorTime: "09:00"
-eventEndTime: "2014-10-25T20:00"
+eventEndTime: "2019-10-25T20:00"
 eventPlaceCoordinates: "49.843237, 24.028751"
 mapCenterCoordinates: "49.842537, 24.025701"
 mapMobileCenterCoordinates: "49.841620, 24.029411"
@@ -143,8 +143,8 @@ ticketsOffers:
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
+  validFrom: "2019-08-25T10:00"
+  validThrough: "2019-09-30T23:59"
  -
   name: "Last Chance"
   price: "450"
@@ -155,8 +155,8 @@ ticketsOffers:
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
+  validFrom: "2019-10-01T00:00"
+  validThrough: "2019-10-23T23:59"
   disabled: true
  -
   name: "Student"
@@ -167,8 +167,8 @@ ticketsOffers:
   buyButtonText: "Buy Now"
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
+  validFrom: "2019-08-20T10:00"
+  validThrough: "2019-10-23T23:59"
   soldOut: true
   soldOutText: "Sold Out"
 
@@ -282,9 +282,9 @@ hackathonAddressLocalityRegion: "Lvivska"
 hackathonPostalCode: "79000"
 hackathonAddressCountry: "Ukraine"
 hackathonTimeTitle: "Hack through"
-hackathonStartTime: "2014-10-24T10:00"
+hackathonStartTime: "2019-10-24T10:00"
 hackathonDoorTime: "09:00"
-hackathonEndTime: "2014-10-25T00:00"
+hackathonEndTime: "2019-10-25T00:00"
 viewOnMap: "View on Google Maps"
 hackathonPlaceCoordinates: "49.840999, 24.031144"
 hackathonMapCenterCoordinates: "49.840696, 24.028754"
