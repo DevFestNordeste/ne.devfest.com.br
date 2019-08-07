@@ -1,67 +1,217 @@
 - 
+  id: 1
+  name: "Jéssica"
+  surname: "Costa"
+  company: ""
+  title: "Dados e mais dados: como utilizá-los para a tomada de decisão"
+  bio: "Formada em Sistemas de Informação pela Universidade Federal de Sergipe, atua como Analista de desenvolvimento de sistemas na Topos/Sergás. Suas áreas principais são desenvolvimento de software e análise de dados. GDG Organizer e WTM Ambassador em Aracaju-SE."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipM1JBIy3VHTrmHbEa5DEqdlD0xgxR9dW6Wls_SR
+  rockstar: false
+- 
+  id: 2
+  name: "Davidson"
+  surname: "Marques"
+  company: ""
+  title: "Do XGH ao SCRUM"
+  bio: 'Desenvolvedor desde de 2007, experiência com Java, c#, javascript, sql, sqlserver, mysql. Scrum master.Gerenciamento de projetos. Sistemas legados com vb6.'
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipNkpTWRBza5r_CMwhbUagcHOWd4bcwmF1nm4hIP
+  rockstar: false
+- 
   id: 3
-  name: "Dawid"
-  surname: "Ostrowski"
-  company: "Google Poland"
-  title: "Developer Relations Program Manager"
-  bio: "Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action."
-  thumbnailUrl: DawidOstrowski.jpg
-  rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
+  name: "Ana"
+  surname: "Costa"
+  company: ""
+  title: "Comunidade, networking e feedback positivo"
+  bio: "Organizer GDG Aracaju, Ambassadors Women Techmakers, Téc. Informática Para Internet, Téc. Segurança do Trabalho, Universitária em Geologia na Universidade Federal de Sergipe. "
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipO44LAgFLrY1SPk8ve9t7pak5O4rNAEaWSKWc6a
+  rockstar: false
 - 
   id: 4
-  name: "Dmytro"
-  surname: "Danylyk"
-  company: "Lemberg Solutions Limited"
-  title: "Android Developer"
-  bio: '<p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.</p>'
-  thumbnailUrl: DmytroDanylyk.jpg
-  rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+  name: "Fausto"
+  surname: "Blanco"
+  company: ""
+  title: "Do Angular ao Flutter: Da Web ao Mobile Nativo"
+  bio: "Administrador da comunidade Angular Brasil(https://t.me/AngularBrasil) desde 2016, apaixonado por tecnologia, honesto e por escolha e necessidade caminhando para o desenvolvimento mobile com Flutter e membro ativo da comunidade Flutterando."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipM8qvdW-zssF_GnVhD6NwhLKOS44rw5Seq6Jw8r
+  rockstar: false
 - 
   id: 5
-  name: "Mateusz"
-  surname: "Herych"
-  company: "Base CRM, GDG Krakow"
-  title: "Software Engineer"
-  bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
-  thumbnailUrl: MateuszHerych.jpg
-  rockstar: true
-  ribbon: 
-    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
-    - {name: "twitter", link: "https://twitter.com/mherych"}
+  name: "Rafael"
+  surname: "Acevedo"
+  company: ""
+  title: "Rodando Elasticsearch em larga escala: dicas de quem já sofreu"
+  bio: "Rafael Acevedo é graduado em ciência da computação pelo CIn-UFPE. Hoje, é engenheiro de software na In Loco, tendo trabalhado no desenvolvimento da plataforma de localização indoor, utilizada para veiculação de anúncios contextualizados, soluções anti-fraude e para engajamento em apps. Atualmente trabalha no time de Plataforma de Mídia, sendo responsável por pensar e desenvolver arquiteturas de entrega de anúncios (capazes de levar clientes a estabelecimentos) e de processamento de dados em larga escala, de forma a gerar estatísticas relevantes aos anunciantes e prover visibilidade para a empresa. Também atua como Community Organizer da Elastic em Recife."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipNAFBDYCl86h9rP4P8RVizpXBLV5A44uup9i3p2
+  rockstar: false
 - 
   id: 6
-  name: "Roman"
-  surname: "Mazur"
-  company: "Stanfy, GDG Kyiv"
-  title: "Head of Android/Java Unit"
-  bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
-  thumbnailUrl: RomanMazur.jpg
-  rockstar: true
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+RomanMazur/"}
-    - {name: "twitter", link: "http://twitter.com/roman_mazur"}
+  name: "Diogo"
+  surname: "Cabral"
+  company: ""
+  title: "Android way to pro - Roadmap 2019"
+  bio: "Em curtas palavras, uma pessoa curiosa quando o tema é tecnologia. Passando por diversas áreas na minha jornada profissional, já fui do desenvolvimento back-end ao front-end, mas tendo também meus devaneios pelo universo mobile! Sempre gostei de compartilhar e absorver conhecimento de várias formas diferentes e atualmente faço isso sendo Consultor de Desenvolvimento Mobile pela ThoughtWorks."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipPCslOAfuMnUxvdx8X44apZ7B2p-LZkLg69vWZS
+  rockstar: false
 - 
   id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
-  company: "Twinfield, GDG Kyiv"
-  title: "Software engineer/country manager"
-  bio: "Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences."
-  thumbnailUrl: ValentynShybanov.jpg
-  rockstar: true
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
-  social: 
-    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
-    - {name: "site", link: "http://olostan.name/"}
+  name: "Erildo"
+  surname: "Medeiros"
+  company: ""
+  title: "Ícones: Semiótica, UX e Acessibilidade."
+  bio: ""
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipMAwp4qKu0tzJMZEfzfGshZYHwvoBSg-3KIp8Br
+  rockstar: false
+- 
+  id: 8
+  name: "Larissa"
+  surname: "Passos"
+  company: "Formada em Ciência da Computação pela UFPE, trabalha a mais de 3 anos no desenvolvimento dos SDKs da In Loco, presentes em mais de 60 milhões de dispositivos no Brasil. Atualmente desenvolve o algoritmo de detecção de visitas, que captura mais de 1 bilhão de eventos por mês."
+  title: "Construindo uma arquitetura baseada em eventos para Android"
+  bio: ""
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipNPpxz1_f0JP6sIuYMbnXN7_vWifOxg8vDjs1xP
+  rockstar: false
+- 
+  id: 9
+  name: "Marina"
+  surname: "Gadelha"
+  company: ""
+  title: "Quebrando a quarta parede !"
+  bio: "Atriz, mãe e professora. Aplico técnicas do teatro para ajudar pessoas na área da comunicação e melhor expressividade do que quer transmitir."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipN2dkDKQCvIWwTmKzqqqbZFA7-gXnJgidDqLwj_
+  rockstar: false
+-
+  id: 10
+  name: "Gilmar"
+  surname: "Silva"
+  company: ""
+  title: "O poder da Stack React && React Native"
+  bio: "Front-end developer, Analista de sistemas, Pentester"
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipP1cky2X1gyZhgwPCXB31J070Ylmk8SYzKTllEg
+  rockstar: false
+-
+  id: 11
+  name: "Marcella"
+  surname: "Souza"
+  company: ""
+  title: "Robolectric e Shadow Now: testes de Android mais rápidos sob a JVM"
+  bio: "Sou formada em Sistema de Informação pela UFMG e me apaixonei pela computação quando tinha 15 anos, no meu primeiro emprego em uma escola de informática. Lá escrevi minha primeira linha de código em Action Scrpit =P! Já me aventurei no universo startapeiro por 4 anos. Vivi um pouco de tudo que esse mundo de empreendedorismo tem para oferecer: trato com investidores, clientes, equipe. Programei, vendi, gerenciei. Com saudade da estabilidade,  trabalhei um tempo como analista no ramo automotivo mas a saudade do código bateu e voltei a viver de programar me encantando pelo universo mobile. Hoje faço parte de um projeto mobile nativo e gosto bastante de assuntos como arquitetura e testes para Android."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipMNMYfaiTxkZVaDvhx8-Dd2YBxPqIjaup62a3JV
+  rockstar: false
+-
+  id: 12
+  name: "Sthefane"
+  surname: "Soares"
+  company: ""
+  title: "Robolectric e Shadow Now: testes de Android mais rápidos sob a JVM"
+  bio: "Desenvolvedora com mais de 7 anos de experiência. Mobile Developer, Analista de Sistemas na Secretaria Secretaria de Estado de Administração(SEAD) pela Topos Informática."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipNH-AfT-XveqEeucDxOhH4BHQrSolM6ur2HnBVz
+  rockstar: false
+-
+  id: 13
+  name: "Caio"
+  surname: "Valente"
+  company: ""
+  title: "Desmistificando o Virtual DOM e a Reatividade"
+  bio: "Caio Tarifa é arquiteto de soluções na Bild & Vitta e empreendedor na Formaweb. É apaixonado por inovação, experiência de usuário e dedica a maior parte do seu tempo vislumbrando e disseminando novas tecnologia! Além disso, contribui em projetos open source e é fundador e organizador das comunidades DevInterior e Google Developer Group em Ribeirão Preto."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipMY6TKieQ5dm6KI9MgQ2k3rAeiJA7UeBCjR2e9c
+  rockstar: false
+-
+  id: 14
+  name: "Juliana"
+  surname: "Helena"
+  company: ""
+  title: "A Divina Comédia de um Código Legado: indo do Inferno ao Paraíso com Elixir"
+  bio: "Consultant Developer na ThoughtWorks que acredita extremamente na importância da multidisciplinaridade, inclusão e diversidade dos profissionais de tecnologia. Atualmente é Local Lead do Developer Circle from Facebook BH e Coorganizadora do FEMUG-BH"
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipN79TrAaPzPISzae1nvdyjdyOKSjvHgrJ7e75Cb
+  rockstar: false
+-
+  id: 15
+  name: "Phellipe"
+  surname: "Silva"
+  company: ""
+  title: "Testes automatizados em Android para iniciantes"
+  bio: "Sou Phellipe Silva, consultor em desenvolvimento na ThoughtWorks Recife e apaixonado pela tecnologia Android. Nasci em Natal e tenho formação em engenharia da computação pela Universidade Federal do Rio Grande do Norte. Durante minha carreira, tive a chance de criar uma empresa de desenvolvimento mobile na qual desenvolvi mais de 10 apps nativos para Android. Hoje, me dedico a área de consultoria especializada em mobile, na qual trabalho a aproximadamente 3 anos. A área que mais me interessa no mundo Android é a de automação de testes."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipN5fWf4fCH66Pa7bj3ORyeiuUjMQB3z7RBf4PfI
+  rockstar: false
+-
+  id: 16
+  name: "Gabriel"
+  surname: "Rufino"
+  company: ""
+  title: "TensorFlow.js: Agregando valor ao negócio com Machine Learning e Javascript"
+  bio: "Desenvolvedor Javascript apaixonado por Machine Learning e fascinado pelo mundo de soluções incríveis que a Inteligência Artificial pode fazer pelos problemas do mundo."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipMjXuJGTQo5wFp22GviFl96ttRspeU-5WAJzvEX
+  rockstar: false
+-
+  id: 17
+  name: "Ramon"
+  surname: "Mota"
+  company: ""
+  title: "Koin um framework simples para injeção de dependência no Android"
+  bio: "Soteropolitano, \"Bahêa\", Desenvolvedor Android na ClickBus, especialista em Computação Ubíqua pelo Instituto Federal da Bahia, organizador do Google Developers Group Salvador, membro do AfrotechBR e forrozeiro nas horas livres."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipNSRspUHIXX3hU6gtZoMz7QJ8FwI8I2tuE6YdEk
+  rockstar: false
+-
+  id: 18
+  name: "Fernanda"
+  surname: "Bernardo"
+  company: ""
+  title: "Perceived Performance"
+  bio: "Sou engenheira de software, com foco em front end. Além disso, trabalho com comunicação no @help4papers, ajudando pessoas tímidas a palestrar. Sou diabética e tenho o @diabetesmaisdoce, um blog sobre diabetes para mostrar para as pessoas que é possível ter uma vida normal, e também um aplicativo para auxiliar no controle da diabetes."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipNZHJ5yKlhc8rVc5_4mwFXZ22svBO7yvKb_uGDK
+  rockstar: false
+-
+  id: 19
+  name: "Juan"
+  surname: "Guillermo"
+  company: ""
+  title: "Perceived Performance"
+  bio: "Juan Guillermo is the co-organizer of several local events, such as GDG Cali, startup weekend Colombia and free software. He has been involved in the tech community for the past 10 years. He attends more than 20 events per year as a guest speaker throughout Latin America, where he speaks about mobile, cloud, firebase, entrepreneurship and innovation. In 2016, he co-founded the first hacker school in Cali (DevHack), where he teaches programming different technologies such as front-end, mobile and back-end. He was the CTO and co-founder of lead IS consulting, where he has developed and deployed enterprise software and mobile applications on Cloud Computing Platforms. He was the CTO in Progessus too. Now, he is an educator at DevHack and several Universities at Cali, Colombia. Juan is GDE (Google Developer Expert) in Firebase and GCP, holds a BS in System Engineering and a MS in Software Engineering at Universidad San Buenaventura Cali."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipNcWd7dLlNRWixRIR4M7JaE9wV3-nxUu5be3Ys7
+  rockstar: false
+-
+  id: 20
+  name: "Pedro"
+  surname: "Atanásio"
+  company: ""
+  title: "Engenheiro de Software"
+  bio: "Sou um engenheiro de software com foco em tecnologias móveis que ama o que faz. Atualmente trabalho na In Loco, startup pernambucana que desenvolveu a tecnologia de localização indoor mais precisa do mundo. "
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipPqNCv1LjBWYf3YB6OhJPITg9nCs-02qUCbPi1R
+  rockstar: false
+-
+  id: 21
+  name: "Thiago"
+  surname: "Marques"
+  company: ""
+  title: "O que não te contaram sobre a acessibilidade web"
+  bio: "Thiago estudou Ciência da Computação na Universidade Federal de Lavras e na Arizona State University. É Product Designer na Hotmart e já teve experiências trabalhando com desenvolvimento front-end. É envolvido com com comunidades de desenvolvimento, sendo community leader do GDG Belo Horizonte. Um de seus grandes objetivos é utilizar a Computação e o Design para facilitar a vida das pessoas e entender como elas podem ser beneficiadas com isso."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipN1bxzVc8VeF8C9iP-lVKr0kWHNs5E4MJjSCZgK
+  rockstar: false
+-
+  id: 22
+  name: "Diogo"
+  surname: "Padilha"
+  company: ""
+  title: "Como me tornei cientista de dados"
+  bio: "Engenheiro de Computação (Universidade de Vassouras) nascido em Paraíba do Sul/RJ, participante assíduo na comunidade GDG Três Rios desde 2015 fazendo parte da organização do grupo. Ajuda o Brasil a contratar mais e melhor atuando como cientista de dados na Gupy, uma das startups que mais crescem no Brasil. Trabalhando com dados, IA, análises e comunidade."
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipNOLhyT6Uqsm7OMPmnC71kpWJQdCm15L5hAiqHc
+  rockstar: false
+-
+  id: 23
+  name: "Ana"
+  surname: "Silva"
+  company: ""
+  title: "Modularizando Aplicações Android"
+  bio: "Atuo com Android há 6 anos. Organizo as DroidTalks em Belo Horizonte, meetups voltados ao desenvolvimento Android. Atualmente sou Consultora Desenvolvedora Mobile Sênior na ThoughtWorks BH"
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipO4SI_SyzLqfRgKFS70Qs-n_X4TVAZ_Haah7GkL
+  rockstar: false
+-
+  id: 24
+  name: "Italo"
+  surname: "Marcel"
+  company: ""
+  title: "Modularizando Aplicações Android"
+  bio: "Um gamer nato e apaixonado por Android, formado em Programação de Sistemas pelo Instituto Federal de Sergipe e graduando em Ciência da Computação pela Universidade Federal de Sergipe. Programa desde os 15 anos de idade, e já desenvolveu diversos aplicativos durante os mais de 9 anos como Developer Android. Inovar faz parte de seu DNA. Membro do GDG Rio de Janeiro. "
+  thumbnailUrl: https://photos.google.com/album/AF1QipPyQkhsX-f_Xmg5fLGeVCw5jhCPMSvgxURSC797/photo/AF1QipMISuJT5wRl9khnjDD5QJ1TQJ5VrCQcQWNnB8Al
+  rockstar: false
+-
