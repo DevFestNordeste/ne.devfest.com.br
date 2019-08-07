@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "GDG DevFest Season 2019"
 email: "devfest@gdg.org.ua"
 description: "GDG DevFest is a set of events all around the world"
-baseurl: "/"
+baseurl: ""
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
@@ -31,7 +31,7 @@ organizerLink: "http://lviv.gdg.org.ua/"
 # Head
 metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
 twitterAccount: "@DevFest"
-socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+# socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
@@ -52,7 +52,7 @@ navigationLinks:
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -61,57 +61,61 @@ eventDate: "19 de Outubro de 2019"
 typeoutTextValues: '"", "NE"'
 typeoutFallback: "Season"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/#tickets", text: "Comprar ingressos"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "Sobre o GDG DevFest"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Conferência", image: "conference.jpg", text: "O maior evento relacionado ao Google no país cuidadosamente criado para você pela comunidade do GDG. Palestrantes incríveis e muita diversão!!" }
+ - {title: "Workshops", image: "workshop.jpg", text: "Um dia inteiro de workshops, hands-on, hacking e debugging. Venha e domine sua tecnologia favorita!" }
+ - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Quer uma equipe para desenvolver em uma sexta-feira? Pegue sua equipe e participe de nosso hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+# - {count: "350", specialCharacter: "+", info: "pessoas", detail: "de todos os lugares"}
+ - {count: "9", specialCharacter: "+", info: "horas", detail: "de pura tecnologia Google"}
+ - {count: "20", specialCharacter: "+", info: "palestrantes", detail: "do país e além"}
+# - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "Últimas noticias"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
-rockstarSpeakersButtonText: "See all speakers"
+rockstarSpeakersTitle: "Palestrantes"
+rockstarSpeakersButtonText: "Conheça os palestrantes"
 
 # Location Block
-locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
+locationBlockTitle: "Local"
+eventLocationName: "SEBRAE - RN"
 eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2019-10-25T10:00"
+eventStreetAddress: "Av. Lima e Silva, 76"
+eventAddressLocality: "Lagoa Nova"
+eventAddressLocalityRegion: "Natal"
+eventPostalCode: "59062-300"
+eventAddressCountry: "Brasil"
+eventStartTime: "2019-10-25T8:00"
 eventDoorTime: "09:00"
-eventEndTime: "2019-10-25T20:00"
+eventEndTime: "2019-10-25T17:45"
 eventPlaceCoordinates: "49.843237, 24.028751"
 mapCenterCoordinates: "49.842537, 24.025701"
 mapMobileCenterCoordinates: "49.841620, 24.029411"
 
 # Venue Block
-venueBlockTitle: "Venue"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
+venueBlockTitle: "SEBRAE"
+venueBigImage: "sebrae_0.jpg"
+venueSmallImage1: "sebrae_1.jpg"
+venueSmallImage2: "sebrae_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "SEBRAE"
+venueFeatures: [
+  "Lançamentos de startups ou produtos (inovadores e/ou de base tecnológica)",
+  "Capacitações, reuniões de nivelamento, grupos focais",
+  "Reuniões diversas focadas em negócios, inovação, criação"
+]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -126,75 +130,80 @@ partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
+subscribeTitle: "Inscreva-se para receber atualizações"
 subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+# subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsTitle: "Ingressos"
+ticketsInfo: "Os ingressos concedem acesso a todas as palestras do evento. Alojamento não está incluído no preço do ingresso."
 ticketsOffers:
  -
   name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
+  price: "20,00"
+  priceCurrency: "R$"
   ticketsNumber: "150"
-  ribbon: "-5%"
+  ribbon: "até 4x"
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  ticketContentList: ["Em até 4x R$ 6,05", "+ R$ 2,50 taxa", "Contribuições até 25/05/2019"]
   validFrom: "2019-08-25T10:00"
   validThrough: "2019-09-30T23:59"
+  soldOut: true
+  soldOutText: "Encerrado"
+
  -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
+  name: "Primeiro lote"
+  price: "30,00"
+  priceCurrency: "R$"
   ticketsNumber: "100"
-  ribbon: "-20%"
+  ribbon: "até 6x"
   featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  buyButtonLink: "https://www.sympla.com.br/devfest-nordeste-2019---natal__536537"
+  buyButtonText: "Comprar agora"
+  ticketContentList: [ "Em até 6x R$ 6,09 ", "+ R$ 3,00 taxa", "Contribuições até 25/08/2019"]
   validFrom: "2019-10-01T00:00"
   validThrough: "2019-10-23T23:59"
-  disabled: true
+  
  -
-  name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
-  ticketsNumber: "50"
+  name: "Segundo Lote"
+  price: "Em breve"
+  priceCurrency: ""
+  ticketsNumber: ""
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  ticketContentList: ["Em breve", "Em breve", "Em breve"]
   validFrom: "2019-08-20T10:00"
   validThrough: "2019-10-23T23:59"
+  validFrom: "2019-10-01T00:00"
+  validThrough: "2019-10-23T23:59"
   soldOut: true
-  soldOutText: "Sold Out"
+  soldOutText: "Em breve"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+# - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+ - {link: "https://twitter.com/DevfestNE", icon: "twitter"}
+ - {link: "https://www.facebook.com/devfestne/", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
    - {link: "https://developers.google.com", text: "Google Developers"}
  -
-  title: "Contacts"
+  title: "Contatos"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:marlonmaia.dev@gmail.com", text: "marlonmaia.dev@gmail.com"}
+   - {link: "mailto:sarahraqueld@gmail.com", text: "sarahraqueld@gmail.com"}
+   - {link: "mailto:contato@henricavalcante.me", text: "contato@henricavalcante.me"}
  -
   title: "FAQ"
   links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {link: "https://bit.ly/2RuEwdi", text: "Codigo de conduta"}
 
 # Blog
-blogTitle: "Latest news"
+blogTitle: "Ultimas noticias"
 blogCommentsEnabled: true
 discusShortName: "devfestua"
 
@@ -273,7 +282,7 @@ prizes:
  - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
 
 # Hackathon Location Block
-hackathonLocationBlockTitle: "Location"
+hackathonLocationBlockTitle: "Local"
 hackathonLocationName: "Communa"
 hackathonLocationLink: "http://communa.net.ua/"
 hackathonStreetAddress: "1 Halytska St"
