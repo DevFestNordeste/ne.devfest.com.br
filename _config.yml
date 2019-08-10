@@ -43,12 +43,12 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
- - {permalink: "/hackathon/", text: "Hackathon"}
+#  - {permalink: "/blog/", text: "Blog"}
+#  - {permalink: "/schedule/", text: "Agenda"}
+ - {permalink: "/speakers/", text: "Palestrantes"}
+#  - {permalink: "/team/", text: "Organizadores"}
+#  - {permalink: "/logistics/", text: "Logistica"}
+#  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 rightNavigationButtons:
@@ -68,8 +68,6 @@ heroButtons:
 aboutTitle: "Sobre o GDG DevFest"
 aboutBlock:
  - {title: "Conferência", image: "conference.jpg", text: "O maior evento relacionado ao Google no país cuidadosamente criado para você pela comunidade do GDG. Palestrantes incríveis e muita diversão!!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Um dia inteiro de workshops, hands-on, hacking e debugging. Venha e domine sua tecnologia favorita!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Quer uma equipe para desenvolver em uma sexta-feira? Pegue sua equipe e participe de nosso hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -124,9 +122,9 @@ twitterHashTag: "devfest"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizers"
-partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+# organizersTitle: "Organizers"
+# partnersTitle: "Partners"
+# partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
@@ -185,7 +183,7 @@ socialLinks:
 # - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
  - {link: "https://twitter.com/DevfestNE", icon: "twitter"}
  - {link: "https://www.facebook.com/devfestne/", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+#  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
@@ -200,11 +198,11 @@ footerBlocks:
  -
   title: "FAQ"
   links:
-   - {link: "https://bit.ly/2RuEwdi", text: "Codigo de conduta"}
+   - {link: "https://www.google.com/events/policy/anti-harassmentpolicy.html", text: "Codigo de conduta"}
 
 # Blog
 blogTitle: "Ultimas noticias"
-blogCommentsEnabled: true
+blogCommentsEnabled: false
 discusShortName: "devfestua"
 
 # Speakers List Block
