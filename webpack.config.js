@@ -10,7 +10,7 @@ module.exports = {
   entry: './src/js/index.js',
   output: {
     filename: '[name].[hash].js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     publicPath: '/'
   },
   resolve: {
@@ -97,10 +97,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: './src/templates/index.html'
-    }),
-    new HtmlWebpackPlugin({
-      filename: 'codigo-de-conduta/index.html',
-      template: './src/templates/codigo-de-conduta.html'
     }),
     new HtmlWebpackPlugin({
       filename: 'quero-patrocinar/index.html',

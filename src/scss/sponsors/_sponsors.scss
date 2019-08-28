@@ -1,10 +1,10 @@
-$sponsor-height: 130px;
+$sponsor-width: 130px;
 
 .sponsor-container {
   padding: 0;
 }
 
-@mixin sponsor-category($color: $dark-blue) {
+@mixin sponsor-category($color: $google-blue) {
   width: 100%;
   @extend .d-flex;
   @extend .justify-content-center;
@@ -16,7 +16,6 @@ $sponsor-height: 130px;
 
 .sponsors-wrapper {
   @extend .about-wrapper;
-  @include make-angle ($background-dark, -3);
   background-color: $background-dark;
 
   .sponsors-container {
@@ -41,12 +40,11 @@ $sponsor-height: 130px;
   @extend .col-lg-4;
   @extend .col-10;
   display: block;
-  background-color: white;
+  background-color: $google-text-white;
   line-height: normal;
   padding: 10px;
   font-size: 25px;
   font-weight: 700;
-  text-transform: uppercase;
   text-align: center;
 }
 
@@ -62,16 +60,16 @@ $sponsor-height: 130px;
   }
 
   &__diamond {
-    @include sponsor-category($python-blue);
+    @include sponsor-category($google-blue);
   }
   &__platinum {
     @include sponsor-category($python-platinum);
   }
   &__gold {
-    @include sponsor-category($python-yellow);
+    @include sponsor-category($google-yellow);
   }
   &__silver {
-    @include sponsor-category($dark-blue);
+    @include sponsor-category($google-blue);
   }
 
   &__list {
@@ -89,7 +87,6 @@ $sponsor-height: 130px;
       @extend .align-items-center;
       list-style: none;
       font-size: 50px;
-      font-family: 'Advent Pro', sans-serif;
       height: auto;
     }
   }
@@ -128,6 +125,10 @@ $sponsor-height: 130px;
 
 // Sponsor page
 .sponsors-page {
+  .sponsor {
+    width: 100%;
+  }
+
   .sponsor:last-child {
     margin-top: 60px;
   }
@@ -146,10 +147,7 @@ $sponsor-height: 130px;
     margin-bottom: 30px;
 
     h2 {
-      font-size: 46px;
       font-weight: 500;
-      color: $dark-blue;
-      text-transform: uppercase;
       text-align: center;
     }
   }
@@ -163,8 +161,7 @@ $sponsor-height: 130px;
 
     h3 {
       font-size: 36px;
-      color: $light-blue;
-      text-transform: uppercase;
+      color: $google-blue;
       font-weight: 500;
     }
   }
@@ -194,8 +191,7 @@ $sponsor-height: 130px;
     }
 
     img {
-      height: $sponsor-height * 3.375;
-      width: auto;
+      width: $sponsor-width * 3.375;
     }
   }
 
@@ -209,8 +205,7 @@ $sponsor-height: 130px;
     }
 
     img {
-      height: $sponsor-height * 2.25;
-      width: auto;
+      width: $sponsor-width * 2.25;
     }
   }
 
@@ -224,8 +219,7 @@ $sponsor-height: 130px;
     }
 
     img {
-      height: $sponsor-height * 1.5;
-      width: auto;
+      width: $sponsor-width * 1.5;
     }
   }
 
@@ -239,21 +233,15 @@ $sponsor-height: 130px;
     }
 
     img {
-      height: $sponsor-height;
-      width: auto;
+      width: $sponsor-width;
     }
   }
 
   .sponsor__content {
-    background: white;
     padding: 20px;
 
-    p {
-      font-family: 'Nunito', sans-serif;
-    }
-
     a {
-      color: $light-blue;
+      color: $google-blue;
       font-size: 24px;
       letter-spacing: 1px;
     }
@@ -283,15 +271,11 @@ $sponsor-height: 130px;
 }
 
 @media (max-width: $breakpoint-md) {
-  $sponsor-height: 120px;
+  $sponsor-width: 120px;
   .sponsors-page {
     .midiakit-container {
       text-align: center;
       margin-top: 60px;
-    }
-
-    .sponsor__header h2 {
-      font-size: 40px;
     }
 
     .sponsor__logo--wrapper {

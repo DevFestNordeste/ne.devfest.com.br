@@ -3,9 +3,8 @@
 .header__nav {
   .nav__items {
     .mdc-menu {
-      background-color: $dark-blue;
-      color: white;
-      text-transform: uppercase;
+      background-color: $google-blue;
+      color: $google-text-white;
       border-radius: 0px;
       min-width: 100%;
       box-shadow: none;
@@ -20,13 +19,12 @@
         }
         .mdc-list-item {
           font-weight: 600;
-          font-family: inherit;
           font-size: 16px;
           position: relative;
           padding: 3px 12px;
-          color: white;
+          color: $google-text-white;
           &:hover {
-            color: $python-yellow;
+            color: $google-yellow;
             &:before {
               content: '';
               position: absolute;
@@ -34,7 +32,7 @@
               left: 0;
               height: 100%;
               width: 4px;
-              background-color: $python-yellow;
+              background-color: $google-yellow;
             }
           }
         }

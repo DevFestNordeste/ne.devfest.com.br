@@ -6,6 +6,6 @@
 }
 
 @at-root {
-  @include mdc-linear-progress-bar-color($python-yellow);
+  @include mdc-linear-progress-bar-color($google-yellow);
   @include mdc-linear-progress-buffer-color($mdc-linear-progress-baseline-buffer-color);
 }

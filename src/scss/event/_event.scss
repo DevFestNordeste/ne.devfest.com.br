@@ -3,19 +3,18 @@
   background-repeat: no-repeat;
   background-position: 50% 60%, calc(12% - 30px) calc(87% - 50px);
   background-size: cover, 200px;
-  // background-color: $dark-blue;
+  // background-color: $google-blue;
   // background-blend-mode: soft-light;
   // padding-bottom: 150px;
 
   .bg-overlay {
-    background-color: rgba($dark-blue, 0.3);
+    background-color: rgba($google-blue, 0.3);
     padding-bottom: 150px;
   }
  }
 
 .page-title {
-  font-family: 'Advent Pro', sans-serif;
-  color: $python-yellow;
+  color: $google-yellow;
   margin: 150px 0 0 150px;
   position: relative;
 
@@ -37,15 +36,12 @@
     height: 230px;
     width: 230px;
     display: block;
-    background: url('../img/Python14-Cobras-Transparente.svg') no-repeat;
     opacity: 0.6;
   }
 }
 
 #about-natal {
- @include make-angle ($background-light, -5);
- padding: 40px 0 100px 0;
-
+ padding: 80px 0 0 0;
  .intern-page-content {
    z-index: 9;
    position: relative;
@@ -60,10 +56,7 @@
 }
 
 #about-event {
-  @include make-angle ($dark-blue, -5);
-  background-color: $dark-blue;
-  padding: 100px;
-  color: white;
+  padding: 30px 100px;
 
   strong {
     font-weight: 700;
@@ -83,9 +76,8 @@
      @extend .col-12;
 
      h1, h2 {
-     color: $light-blue;
+     color: $google-blue;
      font-weight: 600;
-     text-transform: uppercase;
      line-height: 1;
    }
 
@@ -100,8 +92,7 @@
 
    h3 {
      font-size: 23px;
-     text-transform: uppercase;
-     color: $python-yellow;
+     color: $google-yellow;
    }
  }
 
@@ -120,9 +111,8 @@
  .quotation-mark {
    position: absolute;
    top: -50px;
-   font-family: 'Advent Pro', sans-serif;
    font-size: 300px;
-   color: $python-yellow;
+   color: $google-yellow;
    line-height: 1;
 
    &.mark-right {
@@ -165,12 +155,12 @@
    }
 
    a {
-     color: white;
+     color: $google-text-white;
      text-decoration: none;
    }
 
    a:hover {
-     color: $python-yellow;
+     color: $google-yellow;
    }
  }
 }

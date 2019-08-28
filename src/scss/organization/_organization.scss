@@ -1,0 +1,25 @@
+.organization-wrapper {
+  .organization-container {
+    @extend .container;
+    .organization {
+      @extend .row;
+    }
+  }
+}
+
+.organization {
+  ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    li {
+      list-style: none;
+      display: inline-flex;
+      img {
+        width: 360px;
+      }
+    }
+  }
+}
+
+

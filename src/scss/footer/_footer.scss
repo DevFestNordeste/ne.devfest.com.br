@@ -37,10 +37,9 @@ $footer-padding-top: 50px;
 .footer {
   a[disabled] {
     pointer-events: none;
-    color: rgba(255, 255, 255, .66) !important;
   }
   padding-top: $footer-padding-top;
-  background-color: $dark-blue;
+  background-color: $background-light;
   &__nav {
     @extend .d-flex;
     @extend .justify-content-between;
@@ -57,37 +56,18 @@ $footer-padding-top: 50px;
       }
       &__title {
         display: inline-block;
-        font-size: 24px;
-        font-weight: 700;
         margin-bottom: 0px;
-        color: $python-yellow;
-        text-transform: uppercase;
+        color: #202124;
       }
       &__item {
         list-style: none;
         padding-top: 3px;
         padding-bottom: 3px;
         a {
-          font-family: 'Nunito', sans-serif;
-          color: white;
-          text-transform: uppercase;
-          font-size: 16px;
+          color: #6d6e70;;
         }
       }
     }
-  }
-  &-note {
-    font-family: 'Nunito', sans-serif;
-    width: 100%;
-    margin-top: 65px;
-    color: white;
-  }
-  .pybr-button--light {
-    width: 100%;
-    max-width: 360px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    font-weight: 600;
   }
   &__actions {
     @extend .d-flex;
@@ -96,8 +76,8 @@ $footer-padding-top: 50px;
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 40px;
-    [class*=pybr-button]{
-      color: $dark-blue;
+    [class*=devfest-button]{
+      color: $google-blue;
     }
     .social__nav {
       margin-top: 45px;
@@ -118,35 +98,6 @@ $footer-padding-top: 50px;
 
     .social__nav__menu__item:hover {
       opacity: 1;
-    }
-  }
-}
-
-@media (min-width: $breakpoint-sm) {
-  .footer {
-    &__actions {
-      .social__nav {
-        margin-top: 0px;
-      }
-    }
-  }
-}
-
-@media (min-width: $breakpoint-lg) {
-  .footer {
-    .pybr-button--light {
-      width: auto;
-      max-width: auto;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-    &__actions {
-      margin-top: 0px;
-      flex-direction: column;
-      .social__nav {
-        margin-top: 45px;
-        width: 100%;
-      }
     }
   }
 }

@@ -1,6 +1,5 @@
 .location-wrapper {
-  background-color: $dark-blue;
-  @include make-angle($dark-blue, -1);
+  background-color: $google-blue;
 }
 
 .location-container {
@@ -9,7 +8,7 @@
     @extend .row;
     .section-header {
       .section-title {
-        color: white;
+        color: $google-text-white;
       }
     }
   }
@@ -31,19 +30,17 @@
     @extend .justify-content-lg-between;
     flex-wrap: wrap;
     padding-bottom: 30px;
-    color: white;
+    color: $google-text-white;
     text-align: left;
     line-height: normal;
     .article__header {
       width: 100%;
       &__title {
-        font-family:  'Advent Pro', sans-serif;
         font-size: 32px;
         font-weight: 600;
-        color: $python-yellow;
+        color: $google-yellow;
       }
       &__subtitle {
-        font-family: 'Nunito', sans-serif;
         font-size: 16px;
       }
     }
@@ -54,7 +51,6 @@
       }
       @extend .article__body;
       h2 {
-        font-family: 'Nunito', sans-serif;
         font-weight: 700;
         font-size: 16px;
       }
@@ -74,8 +70,7 @@
   .holiday-inn-website {
     text-align: right;
     display: block;
-    font-family: 'Advent Pro', sans-serif;
-    color: $python-yellow;
+    color: $google-yellow;
     font-weight: 600;
     font-size: 24px;
   }

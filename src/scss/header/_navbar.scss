@@ -9,19 +9,17 @@
 }
 
 %nav-anchor {
-  font-size: 17px;
-  text-transform: uppercase;
   font-weight: 500;
-  color: white;
+  color: $color-text;
   text-decoration: none;
   transition: color .3s ease-out;
   &:hover, &.active {
     text-decoration: none;
-    color: $python-yellow;
+    color: $google-yellow;
   }
 
   &.call4paper-button:hover, &.call4paper-button.active {
-    color: $dark-blue;
+    color: $google-blue;
   }
 }
 
@@ -44,7 +42,7 @@
   }
 
   &:hover:after {
-    border-color: $python-yellow;
+    border-color: $google-yellow;
   }
 }
 
@@ -55,7 +53,7 @@
   position: fixed;
   top: 0;
   margin-bottom: 64px;
-  background: $dark-blue;
+  background: white;
   @extend .d-flex;
   @extend .align-items-center;
   a[disabled] {
@@ -79,9 +77,6 @@
       }
       .nav__anchor {
         @extend %nav-anchor;
-        @media (min-width: $breakpoint-md) {
-          font-size: 20px;
-        }
       }
     }
   }
@@ -122,8 +117,8 @@
       list-style: none;
       padding: 14px 30px;
 
-      [class*="pybr-button"] {
-        color: $dark-blue;
+      [class*="devfest-button"] {
+        color: $google-blue;
       }
     }
     .nav__anchor {
@@ -142,13 +137,12 @@
     @extend .align-items-center;
     height: 64px;
     position: relative;
-    border-bottom: 1px solid #102E46;
+    border-bottom: 1px solid $google-blue;
     h1 {
       @extend %nav-anchor;
-      font-size: 20px;
       margin-bottom: 0px;
       &:hover {
-        color: white;
+        color: $google-text-white;
       }
     }
   }

@@ -37,7 +37,7 @@ class Store extends React.Component {
       const dayOfEvent = new Date(startDateTime).getDate();
       if (!days[dayOfEvent]) days[dayOfEvent] = [];
 
-      const pybrEvent = {
+      const devfestneEvent = {
         id: event.id,
         date: new Date(startDateTime),
         summary: event.summary,
@@ -55,7 +55,7 @@ class Store extends React.Component {
           ...params
         ] = event.description.split('|').map(i => i.trim());
 
-        pybrEvent.details = {
+        devfestneEvent.details = {
           name,
           title,
           eventType,
@@ -64,27 +64,27 @@ class Store extends React.Component {
         switch(eventType) {
           case 'Palestra':
             const [ category ] = params;
-            pybrEvent.details.category = category;
+            devfestneEvent.details.category = category;
             !talksCategories.includes(category) && talksCategories.push(category);
             break;
           case 'Tutorial':
             const [ duration, requirements, description ] = params;
-            pybrEvent.details = { ...pybrEvent.details, duration, requirements, description }
+            devfestneEvent.details = { ...devfestneEvent.details, duration, requirements, description }
             break;
           case undefined:
-            pybrEvent.details = { eventType: 'Sprints', description: name };
+            devfestneEvent.details = { eventType: 'Sprints', description: name };
             break;
         }
         if (eventType && !eventTypes.includes(eventType)) eventTypes.push(eventType);
       }
-      const eventsOnSameTime = days[dayOfEvent].find(h => h.date.getTime() == pybrEvent.date.getTime());
+      const eventsOnSameTime = days[dayOfEvent].find(h => h.date.getTime() == devfestneEvent.date.getTime());
       if (!eventsOnSameTime) {
         days[dayOfEvent].push({
-          date: pybrEvent.date,
-          events: [pybrEvent]
+          date: devfestneEvent.date,
+          events: [devfestneEvent]
         })
       } else {
-        eventsOnSameTime.events.push(pybrEvent);
+        eventsOnSameTime.events.push(devfestneEvent);
       }
     });
     for (const day in days) {

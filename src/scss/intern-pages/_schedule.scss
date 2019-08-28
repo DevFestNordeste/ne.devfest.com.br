@@ -14,11 +14,9 @@
 .advanced-filters {
   h2 {
     font-size: 14px;
-    text-transform: uppercase;
   }
 
   h3 {
-    font-family: nunito;
     font-size: 12px;
     display: block;
   }
@@ -28,7 +26,7 @@
   width: 100%;
   margin-top: 20px;
   text-align: center;
-  color: white;
+  color: $google-text-white;
   font-size: 1.2em;
 }
 
@@ -44,7 +42,7 @@
 
   .Popover-body {
     border-radius: 2px;
-    background-color: white;
+    background-color: $google-text-white;
     padding: 20px;
   }
 
@@ -54,10 +52,9 @@
 }
 
 .schedule_category {
-  background: $light-blue;
-  font-family: nunito;
+  background: $google-blue;
   font-size: 10px;
-  color: $dark-blue;
+  color: $google-blue;
   padding: 2px 5px 1px 5px;
   border-radius: 2px;
   margin-left: 5px;
@@ -82,11 +79,10 @@
 
 .schedule-page {
   padding: 60px 0;
-  background-color: $dark-blue;
   margin-top: 40px;
 
   .loading {
-    color: white;
+    color: $google-red;
     text-align: center;
   }
 
@@ -104,18 +100,16 @@
   }
 
   .schedule_subtitle {
-    font-family: nunito;
     font-size: 14px;
     text-align: center;
-    color: white;
+    color: $google-text-light;
     background: rgba(white, 0.1);
     padding: 20px;
   }
 
   .keynote_star {
-    color: $light-blue;
+    color: $google-blue;
     font-size: 16px;
-    text-transform: uppercase;
 
     i {
       background: url('../img/keynote_star.svg') no-repeat;
@@ -127,12 +121,11 @@
 
   .schedule-page__title {
     display: inline-block;
-    color: $python-yellow;
-    text-transform: uppercase;
+    color: $google-yellow;
     font-size: 22px;
     margin-bottom: 40px;
     padding-bottom: 5px;
-    border-bottom: 4px solid $python-yellow;
+    border-bottom: 4px solid $google-yellow;
   }
 
   .accordion-tabs {
@@ -141,8 +134,7 @@
     justify-content: center;
 
     a {
-      color: $python-yellow;
-      text-transform: uppercase;
+      color: $google-yellow;
       text-align: center;
       padding-bottom: 5px;
     }
@@ -153,19 +145,18 @@
   }
 
   .tab-link {
-    color: $python-yellow;
-    text-transform: uppercase;
+    color: $google-text-dark;
     text-align: center;
     padding-bottom: 5px;
   }
 
   .filters {
     background-color: inherit;
-    color: white;
-    background-color: $dark-blue;
+    color: $google-text-light;
     z-index: 999;
     display: flex;
     flex-wrap: nowrap;
+    flex-direction: row-reverse;
 
     .filter-box {
       width: 360px;
@@ -178,7 +169,7 @@
 
         input {
           width: 100%;
-          color: white;
+          color: $google-text-dark;
           background-color: transparent;
           border: none;
           border-bottom: 1px solid white;
@@ -186,14 +177,14 @@
           outline: none;
 
           &::-webkit-input-placeholder {
-            color: white;
+            color: $google-text-light;
           }
 
           &:focus {
-            border-color: $light-blue;
+            border-color: $google-blue;
 
             &::-webkit-input-placeholder {
-              color: rgba(white, 0.5);
+              color: rgba($google-text-light, 0.5);
             }
           }
         }
@@ -207,7 +198,7 @@
 
       button {
         display: flex;
-        color: white;
+        color: $google-text-white;
         line-height: normal;
         background-color: transparent;
         padding-left: 5px;
@@ -225,7 +216,7 @@
   .schedule_category_type a {
     font-size: 22px;
     &.active {
-      border-bottom: 5px solid $python-yellow;
+      border-bottom: 5px solid $google-yellow;
     }
   }
 
@@ -235,13 +226,13 @@
 
   .schedule_category_days a {
     font-size: 22px;
-    color: white;
+    color: $google-text-white;
     display: inline-block;
     border-bottom: 2px solid transparent;
 
     &.active {
-      color: $python-yellow;
-      border-bottom: 2px solid $python-yellow;
+      color: $google-yellow;
+      border-bottom: 2px solid $google-yellow;
     }
   }
 
@@ -275,7 +266,7 @@
       content: '';
       width: 1px;
       height: 100%;
-      background: $light-blue;
+      background: $google-blue;
       display: block;
       position: absolute;
       left: 30px;
@@ -287,7 +278,7 @@
       width: 16px;
       height: 16px;
       border-radius: 50%;
-      background: $light-blue;
+      background: $google-blue;
       display: block;
       position: absolute;
       left: 22px;
@@ -301,7 +292,7 @@
   }
 
   .schedule_time {
-    color: $light-blue;
+    color: $google-green;
     font-size: 14px;
     font-weight: 400;
     padding-right: 35px;
@@ -309,44 +300,41 @@
   }
 
   .schedule_name {
-    color: white;
+    color: $google-blue;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.2;
   }
 
   .schedule-highlight .schedule_name {
-    color: $python-yellow;
+    color: $google-text-dark;
   }
 
   .schedule_office {
-    font-family: nunito;
     font-size: 14px;
     font-weight: 200;
-    color: rgba($background-light, 0.6);
+    color: rgba($google-text-light, 0.6);
   }
 
   .schedule_location {
     @extend .schedule_office;
     @extend .d-flex;
     @extend .align-items-center;
-    color: $python-yellow;
+    color: $google-yellow;
     font-size: 11px;
-    text-transform: uppercase;
 
     .material-icons {
       font-size: inherit;
       margin-right: 5px;
       font-size: 20px;
-      color: $light-blue;
+      color: $google-blue;
     }
   }
 
   .schedule_speaker {
     font-size: 14px;
     font-weight: 400;
-    font-family: nunito;
-    color: $background-light;
+    color: $google-text-light;
     margin-bottom: 0;
   }
 }

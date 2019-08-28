@@ -1,29 +1,29 @@
-@mixin color-modifiers($base-class, $dark, $light, $light-blue) {
+@mixin color-modifiers($base-class, $dark, $light, $google-blue) {
   &--dark {
     @extend #{$base-class};
     background-color: $dark;
 
     &:hover {
-      background: $python-yellow;
+      background: $google-yellow;
 
       .yellow-highlight {
-        color: $dark-blue;
+        color: $google-blue;
       }
     }
 
     &.button-bg--dark:hover {
       background: white;
-      color: $dark-blue;
+      color: $google-blue;
     }
   }
 
   &--white {
     @extend #{$base-class};
-    background-color: white;
-    color: $dark-blue;
+    background-color: $google-text-white;
+    color: $google-blue;
 
     &:hover {
-      background: $dark-blue;
+      background: $google-blue;
       color: $white;
     }
   }
@@ -33,7 +33,7 @@
     background-color: $light;
 
     &:hover {
-      background: $dark-blue;
+      background: $google-blue;
     }
 
     &.button-bg--dark:hover {
@@ -43,10 +43,10 @@
 
   &--light-blue {
     @extend #{$base-class};
-    background-color:$light-blue;
+    background-color:$google-blue;
 
     &:hover {
-      background: $dark-blue;
+      background: $google-blue;
     }
   }
 }
@@ -55,13 +55,13 @@
   position: relative;
 
   a {
-    color: $dark-blue;
+    color: $google-text-white;
     position: relative;
     z-index: 9;
   }
 
   a:hover {
-    color: white;
+    color: $google-text-white;
   }
 
   span {
@@ -76,7 +76,6 @@
     height: 120px;
     width: 120px;
     display: block;
-    background: url('../img/Python14-Cobras-amarelo.svg') no-repeat;
   }
 }
 
@@ -86,27 +85,26 @@
   padding: 5px 10px;
 
   &:hover {
-    border-color: $python-yellow;
-    background: $python-yellow;
+    border-color: $google-yellow;
+    background: $google-yellow;
   }
 }
 
-.pybr-button {
+.devfest-button {
   display: block;
   padding: 20px 30px;
   border-radius: 8px;
   font-size: 19px;
   font-weight: 600;
   text-align: center;
-  color: white;
+  color: $google-text-white;
   background-color: $background-dark;
   text-decoration: none;
-  text-transform: uppercase;
   line-height: normal;
   transition: .3s ease-out;
   &:hover, &:active, &:focus {
     text-decoration: none;
-    color: white;
+    color: $google-text-white;
   }
   strong {
     font-size: 26px;
@@ -116,8 +114,8 @@
     position:absolute;
     top:30px;
     right:0;
-    color: $dark-blue;
-    box-shadow: 0px 5px 0 0 $dark-blue;
+    color: $google-blue;
+    box-shadow: 0px 5px 0 0 $google-blue;
     transition: box-shadow 0.3s, transform 0.3s;
     strong {
       color: #fff;
@@ -126,13 +124,13 @@
 
     &:hover {
       color: inherit;
-      box-shadow: 0 0 0 0 $dark-blue;
+      box-shadow: 0 0 0 0 $google-blue;
       transform: translate(0px,5px);
     }
 }
 
 
-  @include color-modifiers('.pybr-button', $dark-blue, $python-yellow, $light-blue);
+  @include color-modifiers('.devfest-button', $google-blue, $google-yellow, $google-blue);
 }
 
 .tickets-button {
@@ -154,15 +152,15 @@
   }
 }
 
-.pybr-button-large {
-  @extend .pybr-button;
+.devfest-button-large {
+  @extend .devfest-button;
   @extend .d-flex;
   @extend .justify-content-center;
   @extend .align-items-center;
   font-size: 20px;
   font-weight: 700;
   height: 140px;
-  @include color-modifiers('.pybr-button-large', $dark-blue, $python-yellow, $light-blue);
+  @include color-modifiers('.devfest-button-large', $google-blue, $google-yellow, $google-blue);
 
 }
 @media (min-width: $breakpoint-xl) {
@@ -172,7 +170,7 @@
 }
 
 @media (min-width: $breakpoint-md) {
-  .pybr-button {
+  .devfest-button {
     font-size: 20px;
     margin: 0 auto;
     strong {
@@ -186,7 +184,7 @@
     }
 
   }
-  .pybr-button-large {
+  .devfest-button-large {
     font-size: 30px;
   }
 
@@ -199,7 +197,7 @@
 }
 
 @media (max-width: $breakpoint-xs) {
-  .pybr-button {
+  .devfest-button {
     font-size: 30px;
     padding: 8px;
     &__sponsor {

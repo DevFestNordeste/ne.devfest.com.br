@@ -3,8 +3,6 @@ import map from 'lodash/map';
 import reduce from 'lodash/reduce';
 import classNames from 'classnames';
 import { Sticky, StickyContainer } from 'react-sticky';
-import DayMenu from './DayMenu';
-import DaySeparator from './DaySeparator';
 import ScrollNavigation from 'scroll-navigation-menu';
 import Events from './Events';
 import { getFormattedTime } from 'app/schedule-app/utils';
@@ -13,9 +11,9 @@ import { FilterBox, CategoryFilter, EventTypeFilter } from './filters';
 class Schedule extends React.Component {
   renderDay(day, label) {
     if (day.length) {
+      console.log(day);
       return (
         <div id={`day${label}`} >
-          <DaySeparator day={label}/>
           {day.map(events => (
             <Events scheduleInDate={events} key={getFormattedTime(events.date)} />
           ))}
@@ -57,7 +55,6 @@ class Schedule extends React.Component {
               className="filters"
               style={{ ...style, top: stickyOffset  }}
             >
-              <DayMenu days={store.days} />
               <FilterBox
                 value={store.searchFilter}
                 onClick={store.actions.toggleAdvancedFilters}

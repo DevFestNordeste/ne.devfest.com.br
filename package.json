@@ -1,21 +1,20 @@
 {
-  "name": "python-brasil-2018",
-  "version": "1.3.0",
-  "description": "Python Brasil 2018 website",
+  "name": "devfest-ne-2019",
+  "version": "1.0.0",
+  "description": "DevFest NE 2019 website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --inline --hot",
-    "bundle": "rm -rf dist && webpack --progress --config webpack.production.config.js",
-    "production": "npm run bundle && cp ./.gitignore dist/.gitignore && git checkout production-bundle && rm -f *.* && rm -f ./.gitignore && cp -rf dist/* . && cp -f dist/.gitignore ./.gitignore && rm -rf dist && git add . && git commit -am 'updating production bundle' && git push --all origin && git checkout master"
+    "bundle": "webpack --progress --config webpack.production.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/evolux/site-python-brasil-2018.git"
+    "url": "https://github.com/DevFestNordeste/ne.devfest.com.br"
   },
-  "author": "Evolux",
+  "author": "Henri Cavalcante",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/evolux/site-python-brasil-2018#readme",
+  "homepage": "https://ne.devfest.com.br",
   "devDependencies": {
     "@material/linear-progress": "^0.30.0",
     "@material/menu": "^0.30.0",
@@ -34,6 +33,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "bootstrap": "^4.0.0-alpha.6",
+    "clean-webpack-plugin": "^3.0.0",
     "cname-webpack-plugin": "^1.0.1",
     "css-loader": "^0.28.7",
     "eslint": "^3.19.0",
@@ -41,7 +41,7 @@
     "file-loader": "^0.11.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^2.28.0",
-    "image-webpack-loader": "^4.2.0",
+    "image-webpack-loader": "^4.6.0",
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.2.1",
     "navigo": "^7.0.0",
@@ -56,8 +56,8 @@
     "style-loader": "^0.18.2",
     "tether": "^1.4.0",
     "uninstall": "0.0.0",
-    "webpack": "^3.4.1",
-    "webpack-dev-server": "^2.4.2",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.5",
     "workbox-webpack-plugin": "^3.2.0"
   },
   "dependencies": {
