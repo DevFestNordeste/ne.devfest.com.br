@@ -10,7 +10,7 @@ self.__precacheManifest = [
     "url": "/./assets/650eb89a61f307b4855261e2d4769026.svg"
   },
   {
-    "url": "/main.e7660a83f72be9e60379.js"
+    "url": "/main.1f43cbf0969ce12bfee1.js"
   },
   {
     "url": "/./assets/f3df5669a32ecca0c9284d9e598ebe0f.svg"
