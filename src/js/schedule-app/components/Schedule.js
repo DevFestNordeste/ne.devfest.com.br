@@ -11,7 +11,6 @@ import { FilterBox, CategoryFilter, EventTypeFilter } from './filters';
 class Schedule extends React.Component {
   renderDay(day, label) {
     if (day.length) {
-      console.log(day);
       return (
         <div id={`day${label}`} >
           {day.map(events => (
