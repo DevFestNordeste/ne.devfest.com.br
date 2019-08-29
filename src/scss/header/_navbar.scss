@@ -110,6 +110,7 @@
     color: rgba(255, 255, 255, .66) !important;
   }
   .nav__items {
+    background: white;
     height: calc(100vh - 64px);
     max-height: 700px;
     overflow-y: scroll;
@@ -184,12 +185,13 @@
 }
 
 .mobile-nav-trigger {
+  cursor: pointer;
   background: none;
   border: none;
   position: absolute;
   width: 48px;
   height: 48px;
-  background-image: url('../img/hamburguer menu-01.svg');
+  background-image: url('../img/svg/menu.svg');
   background-size: 24px;
   background-position: center center;
   background-repeat: no-repeat;
