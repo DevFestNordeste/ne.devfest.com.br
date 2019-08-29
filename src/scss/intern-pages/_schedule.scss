@@ -61,19 +61,19 @@
   white-space: nowrap;
 
   &.pessoas {
-    background: #8b9ffc;
+    background: $google-blue;
   }
 
   &.data-science {
-    background: #ce9bc4;
+    background: $google-red;
   }
 
   &.web {
-    background: #f5bc8b;
+    background: $google-green;
   }
 
-  &.devops {
-    background: #3a8bbb;
+  &.mobile {
+    background: $google-yellow;
   }
 }
 
