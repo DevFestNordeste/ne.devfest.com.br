@@ -139,30 +139,20 @@ class Store extends React.Component {
     const searchRegex = new RegExp(this.state.searchFilter.toLowerCase(), 'i');
     return defaultTo(get(event, 'details.title'), '').match(searchRegex)
       || defaultTo(get(event, 'details.name'), '').match(searchRegex)
+      || defaultTo(get(event, 'location'), '').match(searchRegex)
       || defaultTo(get(event, 'summary'), '').match(searchRegex);
   }
 
   filterEvents(acc, { date, events }) {
-    const rooms = ['Sala Tapioca', 'Sala Rapadura', 'Sala Macaxeira', 'Sala Jerimum']
-      .reverse();
     const filteredEvents = events.filter(event => (
       this.state.typeFilter.includes(event.details.eventType)
         && (!event.details.category || this.state.categoryFilter.includes(event.details.category))
         && (!this.state.searchFilter || this.checkSearchMatch(event))
     ));
 
-    filteredEvents.sort((a, b) => {
-      const roomA = rooms.indexOf(a.location);
-      const roomB = rooms.indexOf(b.location);
-
-      if (roomA === roomB) {
-        return 0;
-      }
-
-      return roomA > roomB ? 1 : -1;
-    })
-    if (filteredEvents.length)
+    if (filteredEvents.length) {
       return [ ...acc, { date, events: filteredEvents } ];
+    }
     return acc;
   }
 
