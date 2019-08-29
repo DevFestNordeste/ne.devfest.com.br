@@ -52,9 +52,8 @@
 }
 
 .schedule_category {
-  background: $google-blue;
   font-size: 10px;
-  color: $google-blue;
+  color: $google-text-dark;
   padding: 2px 5px 1px 5px;
   border-radius: 2px;
   margin-left: 5px;
@@ -62,18 +61,22 @@
 
   &.pessoas {
     background: $google-blue;
+    color: $google-text-white;
   }
 
   &.data-science {
     background: $google-red;
+    color: $google-text-white;
   }
 
   &.web {
     background: $google-green;
+    color: $google-text-white;
   }
 
   &.mobile {
     background: $google-yellow;
+    color: $google-text-white;
   }
 }
 
