@@ -59,7 +59,7 @@ export class FilterBox extends React.Component {
              ref={input => this.input = input}
              value={value}
              onChange={onChange}
-             placeholder="Pesquisar palestra, autor..."
+             placeholder="Pesquisar palestra, autor, sala, categoria..."
             />
          </form>
          <Popover

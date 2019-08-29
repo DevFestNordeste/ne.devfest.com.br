@@ -136,7 +136,6 @@ class Store extends React.Component {
   }
 
   checkSearchMatch(event) {
-    console.log(event);
     const searchRegex = new RegExp(this.state.searchFilter.toLowerCase(), 'i');
     return defaultTo(get(event, 'details.title'), '').match(searchRegex)
       || defaultTo(get(event, 'details.name'), '').match(searchRegex)
