@@ -20,17 +20,17 @@ $footer-padding-top: 50px;
 }
 @media (min-width: $breakpoint-sm) {
   .content-body {
-    padding-bottom: 442px + $footer-padding-top + $footer-margin;
+    padding-bottom: 160px + $footer-padding-top + $footer-margin;
   }
 }
 @media (min-width: $breakpoint-md) {
   .content-body {
-    padding-bottom: 432px + $footer-padding-top + $footer-margin;
+    padding-bottom: 160px + $footer-padding-top + $footer-margin;
   }
 }
 @media (min-width: $breakpoint-lg) {
   .content-body {
-    padding-bottom: 330px + $footer-padding-top + $footer-margin;
+    padding-bottom: 100px + $footer-padding-top + $footer-margin;
   }
 }
 

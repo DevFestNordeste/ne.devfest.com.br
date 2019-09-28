@@ -1,4 +1,4 @@
-$sponsor-width: 130px;
+$sponsor-width: 100px;
 
 .sponsor-container {
   padding: 0;
@@ -181,20 +181,6 @@ $sponsor-width: 130px;
     @extend .col-12;
   }
 
-  .sponsor-diamond {
-    .sponsor__logo--wrapper {
-      @extend .col-lg-5;
-    }
-
-    .sponsor__content--wrapper {
-      @extend .col-lg-7;
-    }
-
-    img {
-      width: $sponsor-width * 3.375;
-    }
-  }
-
   .sponsor-platina {
     .sponsor__logo--wrapper {
       @extend .col-lg-4;
@@ -205,7 +191,7 @@ $sponsor-width: 130px;
     }
 
     img {
-      width: $sponsor-width * 2.25;
+      width: $sponsor-width * 3.375;
     }
   }
 
@@ -219,11 +205,25 @@ $sponsor-width: 130px;
     }
 
     img {
-      width: $sponsor-width * 1.5;
+      width: $sponsor-width * 2.25;
     }
   }
 
   .sponsor-silver {
+    .sponsor__logo--wrapper {
+      @extend .col-lg-3;
+    }
+
+    .sponsor__content--wrapper {
+      @extend .col-lg-9;
+    }
+
+    img {
+      width: $sponsor-width * 1.5;
+    }
+  }
+
+  .sponsor-cooper {
     .sponsor__logo--wrapper {
       @extend .col-lg-3;
     }
