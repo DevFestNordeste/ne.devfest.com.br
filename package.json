@@ -1,7 +1,7 @@
 {
-  "name": "devfest-ne-2019",
+  "name": "devfest-ne-2022",
   "version": "1.0.0",
-  "description": "DevFest NE 2019 website",
+  "description": "DevFest NE 2022 website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/DevFestNordeste/ne.devfest.com.br"
   },
-  "author": "Henri Cavalcante",
+  "author": "Antonio Pedro Ferreira",
   "license": "ISC",
   "homepage": "https://ne.devfest.com.br",
   "devDependencies": {

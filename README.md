@@ -1,6 +1,6 @@
-# pythonbrasil14-site
+# Devfest 2022 - site
 
-Python Brasil 2018 website (http://2018.pythonbrasil.org.br)
+website (http://ne.devfest.com.br)
 
 ## Requirements
 1. NodeJS
