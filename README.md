@@ -16,4 +16,3 @@ website (http://ne.devfest.com.br)
 
 ## Building the website to production
 1. run ``` npm run production ```, the production-bundle branch will be updated
-
