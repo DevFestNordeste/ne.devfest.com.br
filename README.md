@@ -16,3 +16,5 @@ Python Brasil 2018 website (http://2018.pythonbrasil.org.br)
 
 ## Building the website to production
 1. run ``` npm run production ```, the production-bundle branch will be updated
+
+teste permissao
