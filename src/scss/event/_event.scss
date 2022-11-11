@@ -41,7 +41,7 @@
 }
 
 #about-natal {
- padding: 80px 0 0 0;
+ padding: 50px 0 0 0;
  .intern-page-content {
    z-index: 9;
    position: relative;
@@ -154,10 +154,10 @@
      font-weight: 700;
    }
 
-   a {
-     color: $google-text-white;
-     text-decoration: none;
-   }
+  //  a {
+  //    color: $google-text-white;
+  //    text-decoration: none;
+  //  }
 
    a:hover {
      color: $google-yellow;
