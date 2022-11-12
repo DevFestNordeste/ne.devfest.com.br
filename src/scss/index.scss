@@ -210,7 +210,7 @@ img.hero-image--blue-circle[_ngcontent-c3] {
 }
 .hero-items-wrapper--mobile[_ngcontent-c3]
 img.hero-image--yellow-sphere[_ngcontent-c3] {
-  left: 80%;
+  left: 70%;
   top: 24%;
   width: 14%;
   max-width: 90px;
@@ -505,7 +505,7 @@ img.hero-image--yellow-vertical-rectangle[_ngcontent-c3] {
 img.hero-image--green-square[_ngcontent-c3] {
   left: 38%;
   top: 55%;
-  width: 55px;
+  width: 100px;
   animation: fade-in-green-square 3s cubic-bezier(0.07, 0.7, 0.43, 0.92)
   0s 1 normal forwards;
 }
@@ -558,7 +558,7 @@ img.hero-image--yellow-pointer[_ngcontent-c3] {
 }
 .hero-items-wrapper--desktop[_ngcontent-c3]
 img.hero-image--light-red-square[_ngcontent-c3] {
-  left: 42%;
+  left: 32%;
   top: 57%;
   animation: fade-in-light-red-square 3s
   cubic-bezier(0.07, 0.7, 0.43, 0.92) 0s 1 normal forwards;
@@ -724,7 +724,7 @@ img.hero-image--blue-chevron[_ngcontent-c3] {
 img.hero-image--green-pointer[_ngcontent-c3] {
   left: 62%;
   top: 60%;
-  width: 80px;
+  width: 60px;
   animation: fade-in-green-pointer 3s cubic-bezier(0.07, 0.7, 0.43, 0.92)
   0s 1 normal forwards;
 }
@@ -750,9 +750,9 @@ img.hero-image--green-pointer[_ngcontent-c3] {
 }
 .hero-items-wrapper--desktop[_ngcontent-c3]
 img.hero-image--green-half-oval[_ngcontent-c3] {
-  left: 63%;
+  left: 60%;
   top: 80%;
-  width: 30px;
+  width: 80px;
   animation: fade-in-green-half-oval 3s
   cubic-bezier(0.07, 0.7, 0.43, 0.92) 0s 1 normal forwards;
 }
@@ -1100,7 +1100,7 @@ img.hero-image--blue-square[_ngcontent-c3] {
   text-align: center;
   width: 30%;
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   left: 35%;
   color: #ffffff;
   cursor: pointer;
