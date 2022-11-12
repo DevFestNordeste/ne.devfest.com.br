@@ -166,12 +166,33 @@ $sponsor-width: 100px;
     }
   }
 
+  .row-logos-patro {
+    display: flex
+  }
+
+  .logo-patrocinador {
+    width: 160px !important;
+  }
+
   .sponsor__logo--wrapper {
     @extend .col-lg-4;
     @extend .col-md-12;
     @extend .col-sm-12;
     @extend .col-12;
     text-align: center;
+    height: 100px;
+
+    
+    .sponsor-logo {
+      background-color: aliceblue;
+
+      img {
+        position: relative;
+        z-index: 100;
+        width: 100px;
+        height: 100px;
+      }
+    }
   }
 
   .sponsor__content--wrapper {
