@@ -47,6 +47,12 @@
       @extend .section-header;
       margin-left: auto;
     }
+
+    h1 {
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: #fff;
+    }
   }
 }
 

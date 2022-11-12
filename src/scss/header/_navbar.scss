@@ -53,7 +53,7 @@
   position: fixed;
   top: 0;
   margin-bottom: 64px;
-  background: white;
+  background: #231f20;
   @extend .d-flex;
   @extend .align-items-center;
   a[disabled] {
@@ -76,6 +76,7 @@
         margin-right: auto;
       }
       .nav__anchor {
+        color: #fff;
         @extend %nav-anchor;
       }
     }

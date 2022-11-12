@@ -11,6 +11,10 @@
       }
     }
 
+    &.devfest-button--light {
+      background-color: yellow;
+    }
+
     &.button-bg--dark:hover {
       background: white;
       color: $google-blue;
@@ -37,7 +41,7 @@
     }
 
     &.button-bg--dark:hover {
-      background: white;
+      background: rgb(236, 236, 236);
     }
   }
 

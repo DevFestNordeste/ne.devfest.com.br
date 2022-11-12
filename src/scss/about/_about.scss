@@ -1,6 +1,6 @@
 .about-wrapper {
   width: 100%;
-  background-color: $google-light-yellow;
+  background-color: $google-yellow;
 
   .about-container {
     position: relative;
@@ -32,11 +32,21 @@
     @extend .col-10;
     position: relative;
     z-index: 9;
+
+    .text-black {
+      color: #000;
+      font-size: 20px;
+    }
   }
 
   .section-title--left {
+    color: #ffffff;
     border-color: $google-text-white;
     @include infinite-line('left', $google-green);
+  }
+
+  .event-text {
+    border-color: #4285f4;
   }
 
   .about-button {
