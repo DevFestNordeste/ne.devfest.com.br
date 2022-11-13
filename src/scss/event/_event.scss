@@ -1,5 +1,6 @@
 #event-page {
-  background-image: url('../img/bgevento.jpg');
+  min-height: 30vw;
+  background-image: url('../img/holiday-inn.jpg');
   background-repeat: no-repeat;
   background-position: 50% 60%, calc(12% - 30px) calc(87% - 50px);
   background-size: cover, 200px;
@@ -8,19 +9,25 @@
   // padding-bottom: 150px;
 
   .bg-overlay {
-    background-color: rgba($google-blue, 0.3);
+    min-height: 30vw;
+    background-color: rgba(#fff, 0.35);
     padding-bottom: 150px;
   }
  }
 
 .page-title {
   color: $google-yellow;
-  margin: 150px 0 0 150px;
+  margin: -50px 0 0 100px;
   position: relative;
 
   h1 {
+    color: #000;
     line-height: 60px;
     font-size: 70px;
+  }
+
+  h2 {
+    color: rgb(0, 0, 0);
   }
 
   h1, h2 {
@@ -41,7 +48,7 @@
 }
 
 #about-natal {
- padding: 80px 0 0 0;
+ padding: 50px 0 0 0;
  .intern-page-content {
    z-index: 9;
    position: relative;
@@ -154,10 +161,10 @@
      font-weight: 700;
    }
 
-   a {
-     color: $google-text-white;
-     text-decoration: none;
-   }
+  //  a {
+  //    color: $google-text-white;
+  //    text-decoration: none;
+  //  }
 
    a:hover {
      color: $google-yellow;

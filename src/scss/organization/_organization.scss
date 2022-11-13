@@ -1,4 +1,7 @@
 .organization-wrapper {
+  min-height: 500px;
+  padding-top: 20px;
+  background-color: #231f20;
   .organization-container {
     @extend .container;
     .organization {
