@@ -111,6 +111,10 @@ module.exports = {
       template: './src/templates/patrocinadores.html'
     }),
     new HtmlWebpackPlugin({
+      filename: 'palestrantes/index.html',
+      template: './src/templates/palestrantes.html'
+    }),
+    new HtmlWebpackPlugin({
       filename: 'evento/index.html',
       template: './src/templates/evento.html'
     })

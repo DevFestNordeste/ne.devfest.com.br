@@ -19,6 +19,8 @@ const routes = [
   '/quero-patrocinar',
   '/programacao',
   '/patrocinadores',
+  '/programacao',
+  '/palestrantes',
   '/evento'
 ];
 const anchors = new ScrollNavigation({
