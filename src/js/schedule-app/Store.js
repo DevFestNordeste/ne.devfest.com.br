@@ -158,7 +158,7 @@ class Store extends React.Component {
   }
 
   render() {
-    const { days} = this.state;
+    const { days } = this.state;
     const filteredDays = mapValues(days, day => day.reduce(this.actions.filterEvents, []));
     const isListEmpty = every(filteredDays, day => !day.length);
     return this.props.children({
