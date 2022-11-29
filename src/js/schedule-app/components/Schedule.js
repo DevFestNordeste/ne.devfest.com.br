@@ -46,6 +46,7 @@ class Schedule extends React.Component {
   render() {
     const { store } = this.props;
     const stickyOffset = document.querySelector('.header__nav').getBoundingClientRect().height;
+
     return (
       <StickyContainer>
         <Sticky topOffset={-stickyOffset}>

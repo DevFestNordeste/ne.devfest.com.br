@@ -11,7 +11,7 @@ const EventTypes = (event) => ({
       <h2 className="schedule_name">
         {event.summary}
         {event.details.category &&
-          <span className={`schedule_category ${event.details.category.toLowerCase().replace(/\s/g, '-')}`}>
+          <span className={`schedule_category ${event.details.category.toLowerCase().replace(/ \//g, '').replace(/\s/g, '-')}`}>
             {event.details.category}
           </span>
         }
@@ -51,7 +51,7 @@ const EventTypes = (event) => ({
       <h2 className="schedule_name">
         {event.summary}
         {event.details.category &&
-          <span className={`schedule_category ${event.details.category.toLowerCase().replace(/\s/g, '-')}`}>
+          <span className={`schedule_category ${event.details.category.toLowerCase().replace(/ \//g, '').replace(/\s/g, '-')}`}>
             {event.details.category}
           </span>
         }

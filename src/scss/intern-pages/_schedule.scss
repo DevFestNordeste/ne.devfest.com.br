@@ -59,23 +59,43 @@
   margin-left: 5px;
   white-space: nowrap;
 
-  &.pessoas {
-    background: $google-blue;
-    color: $google-text-white;
+  &.carreira-e-desenvolvimento-pessoal {
+    background: $google-light-blue;
+    color: $google-text-dark;
   }
 
-  &.data-science {
+  &.product-e-growth-hacking {
+    background: $google-light-yellow;
+    color: $google-text-dark;
+  }
+
+  &.qualidade-de-código {
+    background: $google-light-green;
+    color: $google-text-dark;
+  }
+
+  &.infra-devops-sre {
+    background: $google-light-red;
+    color: $google-text-dark;
+  }
+
+  &.machine-learning {
     background: $google-red;
     color: $google-text-white;
   }
 
-  &.web {
-    background: $google-green;
+  &.tecnologias-web {
+    background: $google-yellow;
     color: $google-text-white;
   }
 
   &.mobile {
-    background: $google-yellow;
+    background: $google-green;
+    color: $google-text-white;
+  }
+
+  &.flutter {
+    background: $google-blue;
     color: $google-text-white;
   }
 }
