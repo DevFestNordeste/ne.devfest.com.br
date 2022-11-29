@@ -1,6 +1,6 @@
 const CALENDAR_CONFIG = {
-    apiKey: 'AIzaSyCg6TVnwBbs6IITPFErEZ1SEL9_DU1gYls',
-    calendarId: 'th38fkpnqdni8pp7p3tqq6i8kc@group.calendar.google.com',
+    apiKey: 'AIzaSyCxOKldUbT5VcwhWOa3y2hV8RkgDtc82u0',
+    calendarId: 'd5279938700bc6a56b6a60e976c957482a649e209d9d9dd8bb27eccc8918e934@group.calendar.google.com',
 };
 
 export {
