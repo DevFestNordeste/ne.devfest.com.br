@@ -1,0 +1,41 @@
+.nav-item{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.nav{
+    background-color: #FBBC04 !important;
+    padding-top: 64px;
+}
+
+li.nav-item{
+    color: var(--Black, #303031) !important;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+p{
+    color: #6C7073;
+    font-family: 'Inter', sans-serif;
+    font-size: 14.366px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.345px;
+}
+
+a i{
+    color: #0F172A;
+}
+
+@media only screen and (max-width: 501px) {
+    .center{
+        display: flex;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
