@@ -1,0 +1,32 @@
+a {
+    color: var(--Black, #303031);
+    font-family: 'Product Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+
+.nav-item{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    background-color: #FBBC04 !important;
+}
+
+.primary_button{
+    background-color: #4285F4 !important;
+    color: #FFF !important;
+    font-family: 'Product Sans', sans-serif !important;
+    font-size: 18px !important;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    padding: 12px 16px;
+    height: 100%;
+}
+
