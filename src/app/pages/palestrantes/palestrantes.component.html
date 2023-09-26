@@ -1,0 +1,18 @@
+<div class="div_palestrantes flex_palestrantes mt-5" id="3">
+    <p-carousel [showIndicators]="false" [value]="palestrantes" [numVisible]="5" [numScroll]="1" [circular]="false" [responsiveOptions]="responsiveOptions">
+        <ng-template let-item pTemplate="item">
+            <div class="card" [style]="'border:' + item.color" (click)="alterarDescricao(item.id)">
+                <img [src]="item.image" class="image">
+                <h3>{{item.nome}}</h3>
+                <h4>{{item.profissao}}</h4>
+                <h5>{{item.trabalho}}</h5>
+            </div>
+        </ng-template>
+    </p-carousel>
+
+    <div class="row">
+        <div class="col-lg-6 col-md-8 descricao">
+            <p>{{descricao}}</p>
+        </div>
+    </div>
+</div>
