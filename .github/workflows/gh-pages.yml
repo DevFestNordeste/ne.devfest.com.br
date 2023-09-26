@@ -6,11 +6,12 @@ on:
     - master
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest    
+    
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Setup Node.js
       uses: actions/setup-node@v2
@@ -24,9 +25,9 @@ jobs:
       run: npm run build
 
     - name: Deploy
-      if: success()
-      uses: peaceiris/actions-gh-pages@v3
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.3.1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: dist/angular-github-actions
-        enable_jekyll: true
+        github_access_token: ${{ secrets.GITHUB_TOKEN }}
+        build_configuration: production
+        angular_dist_build_folder: dist/angular-github-actions
+        deploy_branch: master
