@@ -29,5 +29,5 @@ jobs:
       with:
         github_access_token: ${{ secrets.GITHUB_TOKEN }}
         build_configuration: production
-        angular_dist_build_folder: dist/angular-github-actions
+        angular_dist_build_folder: dist/devfest2023
         deploy_branch: master
