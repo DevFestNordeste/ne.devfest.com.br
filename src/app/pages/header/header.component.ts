@@ -25,10 +25,8 @@ export class HeaderComponent {
     
     if (windowWidth <= 600) {
       this.imagePath = '/assets/header_mobile.png';
-    } else if (windowWidth <= 2000){
-      this.imagePath = '/assets/header_md.png';
     } else {
-      this.imagePath = '/assets/header.png'
+      this.imagePath = '/assets/header_md.png';
     }
   }
 }
