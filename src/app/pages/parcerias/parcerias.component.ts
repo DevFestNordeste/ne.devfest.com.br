@@ -8,10 +8,11 @@ import { Component } from '@angular/core';
 export class ParceriasComponent {
   mensagemWhatsApp = 'Olá! Tenho interesse em patrocinar o DevFest 2023!'
 
-  redirecionarParaWhatsApp() {
-    const numeroTelefone = '5583999792411'; // Substitua pelo número de telefone do destinatário
-    const mensagem = encodeURIComponent(this.mensagemWhatsApp);
-    const linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${mensagem}`;
-    window.open(linkWhatsApp, '_blank');
+  redirecionarParaEmail() {
+    const email = 'gdgjpb@gmail.com'; // Substitua pelo número de telefone do destinatário
+    const mensagem = 'Tenho interesse em patrocinar o Devfest Nordeste 2023';
+    const assunto = 'Parceria Devfest Nordeste 2023'
+    const linkEmail = `mailto:${email}?subject=${assunto}&body=${mensagem}`;
+    window.open(linkEmail, '_blank');
   }
 }

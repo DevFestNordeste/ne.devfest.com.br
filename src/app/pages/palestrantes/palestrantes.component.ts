@@ -26,7 +26,7 @@ export class PalestrantesComponent {
         id: 1,
         image: '/assets/palestrantes/Fabiana_Nascimento.png',
         nome: 'Fabiana Nascimento',
-        profissao: 'Analista de Tecnologia da Informação Sênior',
+        profissao: 'Analista de Tecnologia Sr',
         trabalho: 'UFPB',
         color: '4px solid var(--yellow-300, #FDE293)',
         description: 'Fabiana Nascimento é uma profissional de TI com mais de 20 anos de experiência, já atuou como desenvolvedora, administradora de banco de dados e gerente de projetos, e também lecionou em faculdades de sistemas e computação. Atualmente, atua como Analista de Tecnologia da Informação da UFPB.'
