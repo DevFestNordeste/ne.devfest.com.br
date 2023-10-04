@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  inscrever(){
+    window.open("https://www.eventbrite.com.br/e/729800030537/", "_blank")
+  }
 }
