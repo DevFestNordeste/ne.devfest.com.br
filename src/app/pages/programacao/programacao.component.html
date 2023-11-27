@@ -26,31 +26,81 @@
              <button class="button me-4" (click)="troca()">Manhã</button>
              <button class="button button_active_tarde" (click)="troca()">Tarde</button>
          </div>
+
+         <div class="container mt-4">
+            <button class="button button_children horario" style="margin-bottom: -50px; font-size: 14px;"><strong>14:00 - 14:40</strong></button>
+            <div class="programacao_children">
+                <p-carousel [showIndicators]="false" [value]="children1" [numVisible]="5" [numScroll]="1" [circular]="false" [responsiveOptions]="responsiveOptions">
+                    <ng-template let-item pTemplate="item">
+                        <div *ngIf="item.color" class="me-3">
+                            <button class="button horario" [style]="'z-index: 99999; position: relative;color: white; background-color:' + item.color + '; border: none'" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid' + item.color">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                        <div *ngIf="!item.color">
+                            <button class="button horario" style="margin-bottom: -50px; font-size: 14px; border:none ; background-color: #D9D9D9; z-index: 2; position: relative;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid #D9D9D9'">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <button class="button button_children horario" style="margin-bottom: -50px; font-size: 14px;"><strong>14:40 - 15:20</strong></button>
+            <div class="programacao_children">
+                <p-carousel [showIndicators]="false" [value]="children2" [numVisible]="5" [numScroll]="1" [circular]="false" [responsiveOptions]="responsiveOptions">
+                    <ng-template let-item pTemplate="item">
+                        <div *ngIf="item.color" class="me-3">
+                            <button class="button horario" [style]="'z-index: 99999; position: relative;color: white; background-color:' + item.color + '; border: none'" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid' + item.color">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                        <div *ngIf="!item.color">
+                            <button class="button horario" style="margin-bottom: -50px; font-size: 14px; border:none ; background-color: #D9D9D9; z-index: 2; position: relative;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid #D9D9D9'">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <button class="button button_children horario" style="margin-bottom: -50px; font-size: 14px;"><strong>15:20 - 16:00</strong></button>
+            <div class="programacao_children">
+                <p-carousel [showIndicators]="false" [value]="children3" [numVisible]="5" [numScroll]="1" [circular]="false" [responsiveOptions]="responsiveOptions">
+                    <ng-template let-item pTemplate="item">
+                        <div *ngIf="item.color" class="me-3">
+                            <button class="button horario" [style]="'z-index: 99999; position: relative;color: white; background-color:' + item.color + '; border: none'" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid' + item.color">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                        <div *ngIf="!item.color">
+                            <button class="button horario" style="margin-bottom: -50px; font-size: 14px; border:none ; background-color: #D9D9D9; z-index: 2; position: relative;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid #D9D9D9'">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+        </div>
  
          <div class="container mt-4" *ngFor="let item of items_tarde">
-            <button *ngIf="item.children" class="button button_children horario" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.horario}}</strong></button>
-            <button *ngIf="!item.children" class="button button_active_tarde horario" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.horario}}</strong></button>
-            <div *ngIf="item.children" class="programacao_children row">
-                    <div style="width: 20%;" *ngFor="let children of item.children">
-                        <div *ngIf="children.color">
-                            <button class="button horario" [style]="'z-index: 2; position: relative;color: white; background-color:' + children.color + '; border: none'" style="margin-bottom: -50px; font-size: 14px;"><strong>{{children.sala}}</strong></button>
-                            <div class="programacao_tarde card" [style]="'border: 1px solid' + children.color">
-                                <p>{{children.titulo}}</p>
-                                <p class="palestrante">{{children.palestrante}}</p>
-                            </div> 
-                        </div>
-                        <div *ngIf="!children.color">
-                            <button class="button horario" style="margin-bottom: -50px; font-size: 14px; border:none ; background-color: #D9D9D9; z-index: 2; position: relative;"><strong>{{children.sala}}</strong></button>
-                            <div class="programacao_tarde card" [style]="'border: 1px solid #D9D9D9'">
-                                <p>{{children.titulo}}</p>
-                                <p class="palestrante">{{children.palestrante}}</p>
-                            </div> 
-                        </div>
-                    </div>
-            </div>
-             
-
-             <div *ngIf="!item.children" class="programacao_tarde">
+             <div class="programacao_tarde">
                  <p>{{item.titulo}}</p>
                  <p class="palestrante">{{item.palestrante}}</p>
              </div>
