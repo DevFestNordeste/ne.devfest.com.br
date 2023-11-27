@@ -1,0 +1,83 @@
+.button_active{
+    box-shadow: 6px 6px 0px 0px #FDE293;
+}
+
+.button_active_tarde{
+    box-shadow: 6px 6px 0px 0px #F28B82;
+}
+
+.button{
+    border-radius: 4.8px;
+    border: 2px solid #000;
+    background: var(--White, #FFF);
+    color: #000;
+    font-family: Product Sans, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    padding: 12px 20px !important;
+}
+
+.programacao_manha{
+    border-radius: 8px;
+    border: 1px solid var(--Yellow-600, #F9AB00);
+    background: var(--White, #FFF);
+    color: var(--grey-grey-900, #1D1B1F);
+    font-family: Product Sans Medium, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    padding: 32px 16px 16px 16px;
+}
+
+.programacao_tarde{
+    border-radius: 8px;
+    border: 1px solid var(--Yellow-600, #EA4335);
+    background: var(--White, #FFF);
+    color: var(--grey-grey-900, #1D1B1F);
+    font-family: Product Sans Medium, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    padding: 32px 16px 16px 16px;
+}
+
+.horario{
+    font-weight: 600px !important;
+}
+
+.palestrante{
+    color: var(--grey-grey-700, #706D73);
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: 0.15px;
+}
+
+.card{
+    height: 200px;
+    justify-content: space-between;
+}
+
+.button_children{
+    box-shadow: 6px 6px 0px 0px #D9D9D9
+}
+
+.programacao_children{
+    border-radius: 8px;
+    border: 1px solid var(--Yellow-600, #D9D9D9);
+    background: var(--White, #FFF);
+    color: var(--grey-grey-900, #1D1B1F);
+    font-family: Product Sans Medium, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    padding: 32px 16px 16px 16px;
+}

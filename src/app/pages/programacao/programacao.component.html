@@ -1,0 +1,59 @@
+<div class="container mt-5">
+    <div class="d-flex">
+        <a routerLink="/programacao" style="cursor:pointer">
+            <img src="/assets/programacao_titulo.png" class="w-50"> 
+        </a>  
+    </div>
+    
+    <div *ngIf="horario">
+       <div class="d-flex justify-content-center mt-5 mb-5">
+            <button class="button button_active me-4" (click)="troca()">Manhã</button>
+            <button class="button" (click)="troca()">Tarde</button>
+        </div>
+
+        <div class="container mt-4" *ngFor="let item of items_manha">
+            <button class="button button_active horario" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.horario}}</strong></button>
+            <div class="programacao_manha">
+                <p>{{item.titulo}}</p>
+                <p *ngIf="item.palestrante" class="palestrante">{{item.palestrante}}</p>
+            </div>
+        </div> 
+    </div>
+    
+
+    <div *ngIf="!horario">
+        <div class="d-flex justify-content-center mt-5 mb-5">
+             <button class="button me-4" (click)="troca()">Manhã</button>
+             <button class="button button_active_tarde" (click)="troca()">Tarde</button>
+         </div>
+ 
+         <div class="container mt-4" *ngFor="let item of items_tarde">
+            <button *ngIf="item.children" class="button button_children horario" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.horario}}</strong></button>
+            <button *ngIf="!item.children" class="button button_active_tarde horario" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.horario}}</strong></button>
+            <div *ngIf="item.children" class="programacao_children row">
+                    <div style="width: 20%;" *ngFor="let children of item.children">
+                        <div *ngIf="children.color">
+                            <button class="button horario" [style]="'z-index: 2; position: relative;color: white; background-color:' + children.color + '; border: none'" style="margin-bottom: -50px; font-size: 14px;"><strong>{{children.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid' + children.color">
+                                <p>{{children.titulo}}</p>
+                                <p class="palestrante">{{children.palestrante}}</p>
+                            </div> 
+                        </div>
+                        <div *ngIf="!children.color">
+                            <button class="button horario" style="margin-bottom: -50px; font-size: 14px; border:none ; background-color: #D9D9D9; z-index: 2; position: relative;"><strong>{{children.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid #D9D9D9'">
+                                <p>{{children.titulo}}</p>
+                                <p class="palestrante">{{children.palestrante}}</p>
+                            </div> 
+                        </div>
+                    </div>
+            </div>
+             
+
+             <div *ngIf="!item.children" class="programacao_tarde">
+                 <p>{{item.titulo}}</p>
+                 <p class="palestrante">{{item.palestrante}}</p>
+             </div>
+         </div> 
+     </div>
+</div>
