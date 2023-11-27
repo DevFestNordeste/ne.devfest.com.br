@@ -13,6 +13,11 @@ import { PalestrantesComponent } from './pages/palestrantes/palestrantes.compone
 import { CarouselModule } from 'primeng/carousel';
 import { ParceriasComponent } from './pages/parcerias/parcerias.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { VoluntariosComponent } from './pages/voluntarios/voluntarios.component';
+import { LocalComponent } from './pages/local/local.component';
+import { PatrocinioComponent } from './pages/patrocinio/patrocinio.component';
+import { ProgramacaoComponent } from './pages/programacao/programacao.component';
+import { LayoutComponent } from './pages/layout/layout.component';
 
 
 @NgModule({
@@ -23,7 +28,12 @@ import { FooterComponent } from './components/footer/footer.component';
     EventoComponent,
     PalestrantesComponent,
     ParceriasComponent,
-    FooterComponent
+    FooterComponent,
+    VoluntariosComponent,
+    LocalComponent,
+    PatrocinioComponent,
+    ProgramacaoComponent,
+    LayoutComponent
   ],
   imports: [
     BrowserModule,

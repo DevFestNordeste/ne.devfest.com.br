@@ -1,0 +1,109 @@
+<div class="container mt-5">
+    <div class="d-flex">
+        <a routerLink="/programacao" style="cursor:pointer">
+            <img src="/assets/programacao_titulo.png" class="w-50"> 
+        </a>  
+    </div>
+    
+    <div *ngIf="horario">
+       <div class="d-flex justify-content-center mt-5 mb-5">
+            <button class="button button_active me-4" (click)="troca()">Manhã</button>
+            <button class="button" (click)="troca()">Tarde</button>
+        </div>
+
+        <div class="container mt-4" *ngFor="let item of items_manha">
+            <button class="button button_active horario" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.horario}}</strong></button>
+            <div class="programacao_manha">
+                <p>{{item.titulo}}</p>
+                <p *ngIf="item.palestrante" class="palestrante">{{item.palestrante}}</p>
+            </div>
+        </div> 
+    </div>
+    
+
+    <div *ngIf="!horario">
+        <div class="d-flex justify-content-center mt-5 mb-5">
+             <button class="button me-4" (click)="troca()">Manhã</button>
+             <button class="button button_active_tarde" (click)="troca()">Tarde</button>
+         </div>
+
+         <div class="container mt-4">
+            <button class="button button_children horario" style="margin-bottom: -50px; font-size: 14px;"><strong>14:00 - 14:40</strong></button>
+            <div class="programacao_children">
+                <p-carousel [showIndicators]="false" [value]="children1" [numVisible]="5" [numScroll]="1" [circular]="false" [responsiveOptions]="responsiveOptions">
+                    <ng-template let-item pTemplate="item">
+                        <div *ngIf="item.color" class="me-3">
+                            <button class="button horario" [style]="'z-index: 99999; position: relative;color: white; background-color:' + item.color + '; border: none'" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid' + item.color">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                        <div *ngIf="!item.color">
+                            <button class="button horario" style="margin-bottom: -50px; font-size: 14px; border:none ; background-color: #D9D9D9; z-index: 2; position: relative;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid #D9D9D9'">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <button class="button button_children horario" style="margin-bottom: -50px; font-size: 14px;"><strong>14:40 - 15:20</strong></button>
+            <div class="programacao_children">
+                <p-carousel [showIndicators]="false" [value]="children2" [numVisible]="5" [numScroll]="1" [circular]="false" [responsiveOptions]="responsiveOptions">
+                    <ng-template let-item pTemplate="item">
+                        <div *ngIf="item.color" class="me-3">
+                            <button class="button horario" [style]="'z-index: 99999; position: relative;color: white; background-color:' + item.color + '; border: none'" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid' + item.color">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                        <div *ngIf="!item.color">
+                            <button class="button horario" style="margin-bottom: -50px; font-size: 14px; border:none ; background-color: #D9D9D9; z-index: 2; position: relative;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid #D9D9D9'">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+        </div>
+
+        <div class="container mt-4">
+            <button class="button button_children horario" style="margin-bottom: -50px; font-size: 14px;"><strong>15:20 - 16:00</strong></button>
+            <div class="programacao_children">
+                <p-carousel [showIndicators]="false" [value]="children3" [numVisible]="5" [numScroll]="1" [circular]="false" [responsiveOptions]="responsiveOptions">
+                    <ng-template let-item pTemplate="item">
+                        <div *ngIf="item.color" class="me-3">
+                            <button class="button horario" [style]="'z-index: 99999; position: relative;color: white; background-color:' + item.color + '; border: none'" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid' + item.color">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                        <div *ngIf="!item.color">
+                            <button class="button horario" style="margin-bottom: -50px; font-size: 14px; border:none ; background-color: #D9D9D9; z-index: 2; position: relative;"><strong>{{item.sala}}</strong></button>
+                            <div class="programacao_tarde card" [style]="'border: 1px solid #D9D9D9'">
+                                <p>{{item.titulo}}</p>
+                                <p class="palestrante">{{item.palestrante}}</p>
+                            </div> 
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+        </div>
+ 
+         <div class="container mt-4" *ngFor="let item of items_tarde">
+             <div class="programacao_tarde">
+                 <p>{{item.titulo}}</p>
+                 <p class="palestrante">{{item.palestrante}}</p>
+             </div>
+         </div> 
+     </div>
+</div>
