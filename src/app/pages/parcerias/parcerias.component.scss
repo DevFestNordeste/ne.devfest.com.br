@@ -32,3 +32,85 @@ button.primary_button{
     height: 100%;
     margin-top: 36px;
 }
+
+.tam_parceria{
+    width: 55%
+}
+
+.tam_company{
+    width: 50%;
+}
+
+.tam_companys{
+    width: 50%;
+}
+
+.tam_visionary{
+    width: 35%;
+}
+
+.tam_innovator{
+    width: 25%;
+}
+
+@media only screen and (max-width: 500px) {
+    .tam_visionary{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .tam_innovator{
+        width: 60%;
+        margin-bottom: 50px;
+    }
+
+    .tam_network{
+        width: 60%;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1299px) {
+    .tam_parceria{
+        width: 40%;
+    }
+
+    .tam_company{
+        width: 20%;
+    }
+
+    .tam_companys{
+        width: 50%;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .tam_company{
+        width: 20%;
+        margin-top: 100px;
+    }
+    .tam_companys{
+        width: 50%;
+        margin-top: 100px;
+    }
+    .tam_parceria{
+        width: 35%
+    }
+
+    .tam_partner{
+        width: 40%
+    }
+
+    .tam_network{
+        width: 40%;
+    }
+
+    .tam_innovator{
+        width: 40%;
+    }
+}
+
+img{
+    padding: 0px;
+}

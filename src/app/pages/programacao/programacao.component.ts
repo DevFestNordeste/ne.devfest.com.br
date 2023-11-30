@@ -57,7 +57,7 @@ export class ProgramacaoComponent {
       },
       {
         sala: "Sala Azul",
-        titulo: "Desenvolvimento de Games com ReactJs",
+        titulo: "Desenvolvimento de games com ReactJs",
         palestrante: "Mackson Araújo | Tech Lead - Grupo Neiva",
         color: "#4285F4"
       },
@@ -95,7 +95,7 @@ export class ProgramacaoComponent {
       },
       {
         sala: "Sala Vermelha",
-        titulo: "Desvendando a síndrome do impostor: Seja você, sem Desculpas!",
+        titulo: "Desvendando a síndrome do impostor: seja você, sem desculpas!",
         palestrante: "Isabelle Melo &  Antônio Pedro | Grupo Neiva & Picpay",
         color: "#EA4335"
       },
@@ -111,7 +111,7 @@ export class ProgramacaoComponent {
     children3 = [
       {
         sala: "Sala Verde",
-        titulo: "O Renascimento do Angular",
+        titulo: "O renascimento do Angular",
         palestrante: "Gustavo Costa | Front-End Sênior",
         color: "#34A853"
       },
@@ -129,7 +129,7 @@ export class ProgramacaoComponent {
       },
       {
         sala: "Sala Vermelha",
-        titulo: "Do Caos à Clareza: a Magia das MLOps na Deduplicação de Dados",
+        titulo: "Do Caos à Clareza: a magia das MLOps na deduplicação de Dados",
         palestrante: "Rodolfo Teles | Engenheiro Machine Learning - Globo",
         color: "#EA4335"
       },

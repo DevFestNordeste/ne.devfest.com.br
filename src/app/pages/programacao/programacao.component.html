@@ -81,7 +81,7 @@
                 <p-carousel [showIndicators]="false" [value]="children3" [numVisible]="5" [numScroll]="1" [circular]="false" [responsiveOptions]="responsiveOptions">
                     <ng-template let-item pTemplate="item">
                         <div *ngIf="item.color" class="me-3">
-                            <button class="button horario" [style]="'z-index: 99999; position: relative;color: white; background-color:' + item.color + '; border: none'" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.sala}}</strong></button>
+                            <button class="button horario" [style]="'z-index: 2; position: relative;color: white; background-color:' + item.color + '; border: none'" style="margin-bottom: -50px; font-size: 14px;"><strong>{{item.sala}}</strong></button>
                             <div class="programacao_tarde card" [style]="'border: 1px solid' + item.color">
                                 <p>{{item.titulo}}</p>
                                 <p class="palestrante">{{item.palestrante}}</p>
